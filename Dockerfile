@@ -1,4 +1,5 @@
 FROM ubuntu:17.10
+USER CxTyler
 ENV WORKDIR /usr/src/app/
 WORKDIR $WORKDIR
 COPY package*.json $WORKDIR
